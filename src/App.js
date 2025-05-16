@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
-import Accueil from "./pages/Accueil";
+import Accueil from "lomerta-app/src/Accueil.js";
 import Album from "./pages/Album";
 import Apropos from "./pages/Apropos";
 import "./App.css";
