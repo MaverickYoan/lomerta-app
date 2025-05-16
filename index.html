@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeK2OuF - Accueil</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">TeK2OuF</span>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="album.html">Sons</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>L'OMERTA</h1>
+        <div class="circle">
+            <span>ou<br>LE TALION</span>
+        </div>
+        <h2>LE RESPECT<br><small>AVANT TOUT</small></h2>
+        <p class="auteur">TeK2OuF</p>
+        <button class="play-btn">&#9654;</button>
+    </main>
+    <footer><!-- * droits -->
+        <nav class="bottom-nav">
+            <a href="index.html" class="active"><span>🏠</span> Accueil</a>
+            <a href="album.html"><span>🎵</span> Sons</a>
+            <a href="apropos.html"><span>☰</span> À propos</a>
+        </nav>
+        <div class="droits">
+            <h6>&copy; 2025 TeK2OuF. L'images fut générée grâce à l'IA. @onlineformapro </h6>
+        </div>
+
+    </footer>
+
+    <!-- * back-to-top section -------------->
+    <a href="#content" class="back-to-top">
+        <span>top</span>
+        <!-- // aria-hidden="true" opur masquer l'icon de l'écran -->
+        <svg width="10" height="10" viewbox=" 0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+        </svg>
+
+        <div id="app"></div>
+        <script src="lomerta-app\src\components\pages\Accueil.js" type="module"></script>
+
+</body>
+
+</html>
