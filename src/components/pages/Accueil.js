@@ -1,5 +1,5 @@
 import React from "react";
-import AudioPlayer from "../components/AudioPlayer";
+import AudioPlayer from "../AudioPlayer";
 
 export default function Accueil() {
     return (
